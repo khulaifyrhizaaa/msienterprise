@@ -43,8 +43,8 @@
                                     <input type="date" value="<?php echo $sarpras['tanggal']; ?>" class="form-control" name="tanggal" placeholder="Masukkan Tanggal">
                                 </div>
                                 <div class="form-group">
-                                    <label for="">Keterangan Barang</label>
-                                    <input type="text" value="<?php echo $sarpras['keterangan']; ?>" class="form-control" name="keterangan" placeholder="Masukkan Keterangan">
+                                    <label for="">Nama Barang</label>
+                                    <input type="text" value="<?php echo $sarpras['keterangan']; ?>" class="form-control" name="keterangan" placeholder="Masukkan Nama Barang">
                                 </div>
                                 <div class="form-group">
                                     <label for="">Status</label>
@@ -57,7 +57,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="">Jumlah</label>
-                                    <input type="text" value="<?php echo $sarpras['jumlah']; ?>" class="form-control" name="jumlah" placeholder="Masukkan Keterangan">
+                                    <input type="text" value="<?php echo $sarpras['jumlah']; ?>" class="form-control" name="jumlah" placeholder="Masukkan Jumlah">
                                 </div>
                                 <div class="card-footer">
                                     <a href="<?php echo base_url('sarpras'); ?>" class="btn btn-outline-info">Back</a>

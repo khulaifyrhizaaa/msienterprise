@@ -108,8 +108,8 @@
                                                     ?> value="tatausaha">Tata Usaha</option>
                                             <option <?php //echo $inputs['jenis_kelamin'] == "Perempuan" ? "selected" : ""; 
                                                     ?> value="sarpras">Sarpras</option>
-                                            <option <?php //echo $inputs['jenis_kelamin'] == "Perempuan" ? "selected" : ""; 
-                                                    ?> value="siswa">Siswa</option>
+                                            <!-- <option <php //echo $inputs['jenis_kelamin'] == "Perempuan" ? "selected" : ""; 
+                                                            ?> value="siswa">Siswa</option> -->
                                         </select>
                                     </div>
                                     <div class="col-md-12">

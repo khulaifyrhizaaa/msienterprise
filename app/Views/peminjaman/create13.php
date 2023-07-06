@@ -63,13 +63,13 @@
 
                                     <div class="col-md-6">
                                         <label for="">Jumlah</label>
-                                        <input type="text" class="form-control" name="jumlah" placeholder="Masukkan Keterangan" value="<?php  ?>">
+                                        <input type="text" class="form-control" name="jumlah" placeholder="Masukkan Jumlah" value="<?php  ?>">
                                     </div>
 
                                     <div class="col-md-6">
                                         <label for="">ID PEGAWAI</label>
                                         <select name="id_pegawai" id="" class="form-control">
-                                            <option value="">Pilih ID</option>
+                                            <option value="">Pilih ID Pegawai</option>
                                             <?php foreach ($datapegawai as $ambildata) : ?>
                                                 <option value="<?= $ambildata['id_pegawai'] ?>"><?= $ambildata['id_pegawai'] ?></option>
                                             <?php endforeach; ?>

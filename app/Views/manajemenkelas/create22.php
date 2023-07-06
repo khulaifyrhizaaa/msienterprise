@@ -21,7 +21,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <form action="<?php echo base_url('manajemenkelas/store22'); ?>" method="post" enctype="multipart/form-data"> 
+                    <form action="<?php echo base_url('manajemenkelas/store22'); ?>" method="post" enctype="multipart/form-data">
                         <div class="card">
                             <div class="card-body">
                                 <?php
@@ -41,8 +41,13 @@
                                 <?php } ?>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <label for="">Tahun Ajaran</label>
-                                        <input type="text" class="form-control" name="tahun_ajaran" placeholder="Masukkan tahun ajaran" value="<?php  ?>">
+                                        <label for="">NIS</label>
+                                        <select name="nis" id="" class="form-control">
+                                            <option value="">Pilih NIS</option>
+                                            <?php foreach ($datanis as $ambildata) : ?>
+                                                <option value="<?= $ambildata['nis'] ?>"><?= $ambildata['nis'] ?></option>
+                                            <?php endforeach; ?>
+                                        </select>
                                     </div>
                                     <div class="col-md-6">
                                         <label for="">Kelas</label>

@@ -40,10 +40,10 @@
                                     </div>
                                 <?php } ?>
                                 <div class="row">
-                                <div class="col-md-6">
+                                    <div class="col-md-6">
                                         <label for="">ID Barang </label>
-                                        <input type="text" class="form-control" name="id_barang" placeholder="Masukkan Tanggal" value="<?php  //echo $inputs['nisn']; }
-                                                                                                                                        ?>">
+                                        <input type="text" class="form-control" name="id_barang" placeholder="Masukkan ID Barang" value="<?php  //echo $inputs['nisn']; }
+                                                                                                                                            ?>">
                                     </div>
                                     <div class="col-md-6">
                                         <label for="">Tanggal </label>
@@ -51,8 +51,8 @@
                                                                                                                                         ?>">
                                     </div>
                                     <div class="col-md-6">
-                                        <label for="">Keterangan Barang</label>
-                                        <input type="text" class="form-control" name="keterangan" placeholder="Masukkan Keterangan" value="<?php  ?>">
+                                        <label for="">Nama Barang</label>
+                                        <input type="text" class="form-control" name="keterangan" placeholder="Masukkan Nama Barang" value="<?php  ?>">
                                     </div>
 
                                     <div class="col-md-6">
@@ -70,7 +70,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <label for="">Jumlah</label>
-                                        <input type="text" class="form-control" name="jumlah" placeholder="Masukkan Keterangan" value="<?php  ?>">
+                                        <input type="text" class="form-control" name="jumlah" placeholder="Masukkan Jumlah" value="<?php  ?>">
                                     </div>
                                 </div>
                             </div>

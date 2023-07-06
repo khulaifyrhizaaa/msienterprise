@@ -374,6 +374,12 @@ class Validation
         'id_pegawai'     => 'required',
 
     ];
+    public $pengembaliansarpras = [
+        'keterangan'     => 'required',
+        'jumlah'     => 'required',
+        'id_pegawai'     => 'required',
+
+    ];
 
 
     public $ujian = [
@@ -414,6 +420,7 @@ class Validation
 
     ];
 
+
     public $pengajuanhasil = [
         'nis'     => 'required',
 
@@ -426,7 +433,12 @@ class Validation
         'id_pegawai'     => 'required',
 
     ];
+    public $pengumuman = [
+        'id'     => 'required',
+        'konten'     => 'required',
+        'tanggal'     => 'required',
 
+    ];
     public $datapengeluaran = [
         'tgl_bayar'     => 'required',
         'keperluan'     => 'required',

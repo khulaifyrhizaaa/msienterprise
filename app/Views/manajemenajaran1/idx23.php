@@ -91,9 +91,9 @@
 
                                                 <td>
                                                     <div class="btn-group">
-                                                        <a href="<?php echo base_url('manajemenajaran1/show/' . $row['tahun_ajaran']); ?>" class="btn btn-sm btn-primary">
+                                                        <!-- <a href="<php echo base_url('manajemenajaran1/show/' . $row['tahun_ajaran']); ?>" class="btn btn-sm btn-primary">
                                                             <i class="fa fa-eye"></i>
-                                                        </a>
+                                                        </a> -->
                                                         <a href="<?php echo base_url('manajemenajaran1/edit23/' . $row['tahun_ajaran']); ?>" class="btn btn-sm btn-success">
                                                             <i class="fa fa-edit"></i>
                                                         </a>

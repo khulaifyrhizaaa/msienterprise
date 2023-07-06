@@ -47,22 +47,22 @@
                                     </div>
                                     <div class="col-md-6">
                                         <label for="">NISN</label>
-                                        <input type="text" class="form-control" name="nisn" placeholder="Masukkan NIS Anda" value="<?php  //echo $inputs['id_daftar']; }                                                                                            
+                                        <input type="text" class="form-control" name="nisn" placeholder="Masukkan NISN Anda" value="<?php  //echo $inputs['id_daftar']; }                                                                                            
                                                                                                                                     ?>">
                                     </div>
                                     <div class="col-md-6">
                                         <label for="">NIK</label>
-                                        <input type="text" class="form-control" name="nik" placeholder="Masukkan NIS Anda" value="<?php  //echo $inputs['id_daftar']; }                                                                                            
+                                        <input type="text" class="form-control" name="nik" placeholder="Masukkan NIK Anda" value="<?php  //echo $inputs['id_daftar']; }                                                                                            
                                                                                                                                     ?>">
                                     </div>
                                     <div class="col-md-6">
                                         <label for="">Nama Siswa</label>
-                                        <input type="text" class="form-control" name="nama" placeholder="Masukkan NIS Anda" value="<?php  //echo $inputs['id_daftar']; }                                                                                            
+                                        <input type="text" class="form-control" name="nama" placeholder="Masukkan Nama Anda" value="<?php  //echo $inputs['id_daftar']; }                                                                                            
                                                                                                                                     ?>">
                                     </div>
                                     <div class="col-md-6">
                                         <label for="">Alamat</label>
-                                        <input type="text" class="form-control" name="alamat" placeholder="Masukkan NIS Anda" value="<?php  //echo $inputs['id_daftar']; }                                                                                            
+                                        <input type="text" class="form-control" name="alamat" placeholder="Masukkan Alamat Anda" value="<?php  //echo $inputs['id_daftar']; }                                                                                            
                                                                                                                                         ?>">
                                     </div>
                                     <!-- <div class="col-md-6">
@@ -143,38 +143,34 @@
 
                                     <div class="col-md-6">
                                         <label for="">Tinggi Badan</label>
-                                        <input type="text" class="form-control" name="tinggi_bdn" placeholder="Masukkan Kelas Anda diterima" value="<?php  //echo $inputs['alamat_dosen']; }                                                                                                                          
+                                        <input type="text" class="form-control" name="tinggi_bdn" placeholder="Masukkan Tinggi Badan Anda" value="<?php  //echo $inputs['alamat_dosen']; }                                                                                                                          
                                                                                                                                                     ?>">
                                     </div>
                                     <div class="col-md-6">
                                         <label for="">Berat Badan</label>
-                                        <input type="text" class="form-control" name="berat_bdn" placeholder="Masukkan Kelas Anda diterima" value="<?php  //echo $inputs['alamat_dosen']; }                                                                                                                          
-                                                                                                                                                    ?>">
+                                        <input type="text" class="form-control" name="berat_bdn" placeholder="Masukkan Berat Badan Anda" value="<?php  //echo $inputs['alamat_dosen']; }                                                                                                                          
+                                                                                                                                                ?>">
                                     </div>
                                     <div class="col-md-6">
                                         <label for="">Riwayat Penyakit</label>
-                                        <input type="text" class="form-control" name="riwayat_pnykt" placeholder="Masukkan Kelas Anda diterima" value="<?php  //echo $inputs['alamat_dosen']; }                                                                                                                          
-                                                                                                                                                        ?>">
+                                        <input type="text" class="form-control" name="riwayat_pnykt" placeholder="Masukkan Riwayat Penyakit Anda" value="<?php  //echo $inputs['alamat_dosen']; }                                                                                                                          
+                                                                                                                                                            ?>">
                                     </div>
                                     <div class="col-md-6">
                                         <label for="">Nama Ayah</label>
-                                        <input type="text" class="form-control" name="nama_ayah" placeholder="Masukkan Kelas Anda diterima" value="<?php  //echo $inputs['alamat_dosen']; }                                                                                                                          
-                                                                                                                                                    ?>">
+                                        <input type="text" class="form-control" name="nama_ayah" placeholder="Masukkan Nama Ayah" value="<?php  //echo $inputs['alamat_dosen']; }                                                                                                                          
+                                                                                                                                            ?>">
                                     </div>
                                     <div class="col-md-6">
                                         <label for="">Nama Ibu</label>
-                                        <input type="text" class="form-control" name="nama_ibu" placeholder="Masukkan Kelas Anda diterima" value="<?php  //echo $inputs['alamat_dosen']; }                                                                                                                          
-                                                                                                                                                    ?>">
+                                        <input type="text" class="form-control" name="nama_ibu" placeholder="Masukkan Nama  Ibu" value="<?php  //echo $inputs['alamat_dosen']; }                                                                                                                          
+                                                                                                                                        ?>">
                                     </div>
                                     <div class="col-md-12">
                                         <label for="">Upload Foto</label>
                                         <input type="file" class="form-control" name="foto" placeholder="" value="<?php  ?>">
                                     </div>
                                 </div>
-
-
-
-
                             </div>
                             <div class="card-footer">
                                 <a href="<?php echo base_url('emis'); ?>" class="btn btn-outline-info">Back</a>

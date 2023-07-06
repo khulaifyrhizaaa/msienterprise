@@ -124,14 +124,13 @@
                     <li class="nav-item">
                       <a href="<?php echo base_url('penjadwalan'); ?>" class="nav-link">
                         <i class="fas fa-check-double"></i>
-
                         <p>Penjadwal</p>
                       </a>
                     </li>
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a href="<?php echo base_url('dataguru'); ?>" class="nav-link">
+                  <a href="<?php echo base_url('pengumuman'); ?>" class="nav-link">
                     <i class="nav-icon fas fa-bell"></i>
                     <p>Pengumuman</p>
                   </a>
@@ -222,8 +221,8 @@
               <ul class="nav nav-treeview">
                 <li class="nav-item">
                   <a href="<?php echo base_url('sarpras'); ?>" class="nav-link active">
-                    <i class="nav-icon fas fa-thin fa-list-check"></i>
-                    <i class="fa-thin fa-bars-progress"></i>
+                    <i class="nav-icon fas fa-chart-line"></i>
+
                     <p>Manajemen Sarpras</p>
                   </a>
                 </li>
@@ -234,8 +233,14 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="<?php echo base_url('pengeluaransarpras'); ?>" class="nav-link active">
+                  <a href="<?php echo base_url('pengembaliansarpras'); ?>" class="nav-link active">
                     <i class="far fa-circle nav-icon"></i>
+                    <p>Pengembalian Sarpras</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="<?php echo base_url('pengeluaransarpras'); ?>" class="nav-link active">
+                    <i class="nav-icon fas fa-light fa-money-bill-wave"></i>
                     <p>Pembelian Sarpras </p>
                   </a>
                 </li>
@@ -246,13 +251,14 @@
             <!-- SISWA -->
             <li class="nav-item">
               <a href="<?php echo base_url('spp'); ?>" class="nav-link">
-                <i class="nav-icon fas fa-check-double"></i>
+                <i class="fas fa-graduation-cap"></i>
+
                 <p>Siswa</p>
               </a>
               <ul class="nav nav-treeview">
                 <li class="nav-item">
                   <a href="<?php echo base_url('siswaprofil/edit17') . "/" . session('nis'); ?>" class="nav-link">
-                    <i class="fas fa-graduation-cap"></i>
+                    <i class="nav-icon fas fa-solid fa-user"></i>
                     <p>Profil Siswa</p>
                   </a>
                 </li>

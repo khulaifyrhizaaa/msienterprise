@@ -92,12 +92,12 @@
           </div>
         </div>
 
-        <div class="form-group">
+        <!-- <div class="form-group">
           <?php
           echo form_label('Role', 'role');
           echo form_dropdown('role', ['' => 'Pilih', 'tata usaha' => 'tata usaha', 'guru' => 'guru', 'sarpras' => 'sarpras', 'siswa' => 'siswa'], ['class' => 'form-control']);
           ?>
-        </div>
+        </div> -->
 
         <!-- siswa_login.php -->
         <div class="col-12">

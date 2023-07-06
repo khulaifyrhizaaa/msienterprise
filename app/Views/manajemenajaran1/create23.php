@@ -46,11 +46,11 @@
                                     </div>
                                     <div class="col-md-6">
                                         <label for="">Jumlah Kelas</label>
-                                        <input type="text" class="form-control" name="jumlah_kelas" placeholder="Masukkan  kelas" value="<?php  ?>">
+                                        <input type="text" class="form-control" name="jumlah_kelas" placeholder="Masukkan  Jumlah Kelas" value="<?php  ?>">
                                     </div>
                                     <div class="col-md-6">
                                         <label for="">Kurikulum</label>
-                                        <input type="text" class="form-control" name="kurikulum" placeholder="Masukkan jumlah laki-laki" value="<?php  ?>">
+                                        <input type="text" class="form-control" name="kurikulum" placeholder="Masukkan Kurikulum" value="<?php  ?>">
                                     </div>
                                 </div>
                             </div>

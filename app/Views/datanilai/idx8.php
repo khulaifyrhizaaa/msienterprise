@@ -96,31 +96,31 @@
                                                 <td><?php echo $row['ips']; ?></td>
                                                 <td><?php echo $row['agama']; ?></td>
 
-                                                <td>
-            
-            
-            <?php if ($row['status'] == 'verifikasi') : ?>
-                <span class="badge badge-success">Diverifikasi</span>
-            <?php elseif ($row['status'] == 'tolak') : ?>
-                <span class="badge badge-danger">Ditolak</span>
-            <?php elseif ($row['status'] == 'tunggu') : ?>
-                <span class="badge badge-secondary">Tunggu</span>
-            <?php endif; ?>
-            
-        </td>
                                                 <!-- <td>
+            
+            
+            <php if ($row['status'] == 'verifikasi') : ?>
+                <span class="badge badge-success">Diverifikasi</span>
+            <php elseif ($row['status'] == 'tolak') : ?>
+                <span class="badge badge-danger">Ditolak</span>
+            <php elseif ($row['status'] == 'tunggu') : ?>
+                <span class="badge badge-secondary">Tunggu</span>
+            <php endif; ?>
+            
+        </td> -->
+                                                <td>
                                                     <div class="btn-group">
-                                                        <a href="<php echo base_url('datanilai/show8/' . $row['nis']); ?>" class="btn btn-sm btn-primary">
+                                                        <a href="<?php echo base_url('datanilai/show8/' . $row['nis']); ?>" class="btn btn-sm btn-primary">
                                                             <i class="fa fa-eye"></i>
                                                         </a>
-                                                        <a href="<php echo base_url('datanilai/edit8/' . $row['nis']); ?>" class="btn btn-sm btn-success">
+                                                        <a href="<?php echo base_url('datanilai/edit8/' . $row['nis']); ?>" class="btn btn-sm btn-success">
                                                             <i class="fa fa-edit"></i>
                                                         </a>
-                                                        <a href="<php echo base_url('datanilai/delete8/' . $row['nis']); ?>" class="btn btn-sm btn-danger" onclick="return confirm('Apakah Anda yakin ingin menghapus Pendaftar ini?');">
+                                                        <a href="<?php echo base_url('datanilai/delete8/' . $row['nis']); ?>" class="btn btn-sm btn-danger" onclick="return confirm('Apakah Anda yakin ingin menghapus Pendaftar ini?');">
                                                             <i class="fa fa-trash-alt"></i>
                                                         </a>
                                                     </div>
-                                                </td> -->
+                                                </td>
                                             </tr>
                                         <?php } ?>
                                     </tbody>
